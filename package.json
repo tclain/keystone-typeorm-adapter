@@ -1,0 +1,25 @@
+{
+  "name": "keystone-typeorm-adapter",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "description": "A typerom database adapter for keystone",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules src",
+    "build": "tsc --outDir dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "reflect-metadata": "0.1.13",
+    "typeorm": "0.2.20"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.22",
+    "@types/node": "^12.12.6",
+    "jest": "24.9.0",
+    "keystone": "4.2.1",
+    "ts-jest": "24.1.0",
+    "ts-node": "8.4.1",
+    "ts-node-dev": "1.0.0-pre.44",
+    "typescript": "^3.7.2"
+  }
+}
